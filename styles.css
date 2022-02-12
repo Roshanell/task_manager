@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.container {
-    background: url("images/backgroundimage.jpeg");
-    width: 960px;
-    height: 600px;
+.bg {
+    background-image: url("images/backgroundimage.jpg"); 
+    height: 920px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 15%;
+    
+}
 
-
- }
