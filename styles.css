@@ -4,14 +4,8 @@
     box-sizing: border-box;
 }
 
-.bg {
-    background-image: url("images/backgroundimage.jpg"); 
-    height: 920px;
-    position: relative;
+.bg-cover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 15%;
-    
 }
-
