@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="row">
                     <!-- left side column contains two rows-->
-                    <div class="col-6" >
+                    <div class="col-md-6" >
                         <div class="row ml-3 mr-3">
                             <a href="#mytasks" class="card" style="background-color:lightpink; height:0; width:48%; padding-bottom:48%">
                                 <div class="card-body">
@@ -74,98 +74,96 @@
                             </a> 
                         </div>
                     </div>
-                    <div class="col-6" style="height:400px">
-                    
+                    <div class="col-md-6" style="height:400px;">
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="card mt-4" style="background-color:lightgoldenrodyellow; height: 0; width: 75%; padding-bottom:75%">
                                 <div class="card-body">
                                     <h4 class="card-title">Add a new task</h4>
                                         <div class="form-group">
-                                        <!--<label for="taskName">Task name:</label> -->
-                                        <input type="text" class="form-control" id="taskName" placeholder="Task name:">
-                                        <br>
-                                        <!-- <label for="taskDescription">Description:</label> -->
-                                        <input type="text" class="form-control" id="taskDescription" placeholder="Description:">
-                                        <br>
-                                        <!-- <label for="taskAssignedTo">Assigned to:</label> -->
-                                        <input type="text" class="form-control" id="taskAssignedTo" placeholder="Assigned to:">
-                                        <br>
-                                        <!-- <label for="taskDueDate">Due date:</label> -->
-                                        <input type="text" class="form-control" id="taskDueDate" placeholder="Due date:">
-                                        <label for="taskStatus">Status:</label>
-                                            <select class="form-control" id="taskStatus">
-                                                <option>To do</option>
-                                                <option>In progress</option>
-                                                <option>Review</option>
-                                                <option>Done</option>
-                                            </select>
-                                        <div class="text-right">
-                                            <button type="submit" class="btn btn-primary btn-sm text-right mt-2 mb-2">Submit</button>
+                                            <!--<label for="taskName">Task name:</label> -->
+                                            <input type="text" class="form-control" id="taskName" placeholder="Task name:">
+                                            <br>
+                                            <!-- <label for="taskDescription">Description:</label> -->
+                                            <input type="text" class="form-control" id="taskDescription" placeholder="Description:">
+                                            <br>
+                                            <!-- <label for="taskAssignedTo">Assigned to:</label> -->
+                                            <input type="text" class="form-control" id="taskAssignedTo" placeholder="Assigned to:">
+                                            <br>
+                                            <!-- <label for="taskDueDate">Due date:</label> -->
+                                            <input type="text" class="form-control" id="taskDueDate" placeholder="Due date:">
+                                            <label for="taskStatus">Status:</label>
+                                                <select class="form-control" id="taskStatus">
+                                                    <option>To do</option>
+                                                    <option>In progress</option>
+                                                    <option>Review</option>
+                                                    <option>Done</option>
+                                                </select>
+                                            <div class="text-right">
+                                                <button type="submit" class="btn btn-primary btn-sm text-right mt-2 mb-2">Submit</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div> 
+                            </div> 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="jumbotron">
-            <a id="mytasks">
-                <h4 class="card-title">My tasks</h4>
-            </a>
-            <div class="card" style="width: 18rem;">                
-                <div class="card-body">
-                    <h5 class="card-title">Task 1</h5>
-                    <p class="card-text">Create wireframes</p>
-                    <p class="card-text">Diana Davis</p>
-                    <p class="card-text">3/1/22</p>
-                    <span class="badge badge-secondary">To do</span>
-                    <a href="#" class="btn btn-primary btn-sm">Delete</a>
-                </div>
-                </div>
-                <br>
-                <div class="card" style="width: 18rem;">                
-                    <div class="card-body">
-                        <h5 class="card-title">Task 2</h5>
-                        <p class="card-text">Write basic HTML</p>
-                        <p class="card-text">Diana Davis</p>
-                        <p class="card-text">3/2/22</p>
-                        <span class="badge badge-info">In progress</span>
-                        <a href="#" class="btn btn-primary btn-sm">Delete</a>
+            <br>
+            <div class="container">
+                <a id="mytasks">
+                    <h4 class="card-title">My tasks</h4>
+                </a>
+                <div class="row">
+                    <div class="card mr-2" style="width: 19%; background-color: lightpink;">                
+                        <div class="card-body">
+                            <h5 class="card-title">Task 1</h5>
+                            <p class="card-text">Create wireframes</p>
+                            <p class="card-text">FirstName LastName</p>
+                            <p class="card-text">Due 3/1/22</p>
+                            <span class="badge badge-secondary">To do</span>
+                            <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div class="card" style="width: 18rem;">                
-                    <div class="card-body">
-                        <h5 class="card-title">Task 3</h5>
-                        <p class="card-text">Add CSS</p>
-                        <p class="card-text">Diana Davis</p>
-                        <p class="card-text">3/3/22</p>
-                        <span class="badge badge-warning">Review</span>
-                        <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                    <div class="card mr-2" style="width: 19%; background-color: lightpink;">                
+                        <div class="card-body">
+                            <h5 class="card-title">Task 2</h5>
+                            <p class="card-text">Write basic HTML</p>
+                            <p class="card-text">FirstName LastName</p>
+                            <p class="card-text">Due 3/2/22</p>
+                            <span class="badge badge-info">In progress</span>
+                            <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div class="card" style="width: 18rem;">                
-                    <div class="card-body">
-                        <h5 class="card-title">Task 4</h5>
-                        <p class="card-text">Testing</p>
-                        <p class="card-text">Diana Davis</p>
-                        <p class="card-text">3/4/22</p>
-                        <span class="badge badge-success">Done</span>
-                        <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                    <div class="card mr-2" style="width: 19%; background-color: lightpink;">                
+                        <div class="card-body">
+                            <h5 class="card-title">Task 3</h5>
+                            <p class="card-text">Add CSS</p>
+                            <p class="card-text">FirstName LastName</p>
+                            <p class="card-text">Due 3/3/22</p>
+                            <span class="badge badge-warning">Review</span>
+                            <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div class="card" style="width: 18rem;">                
-                    <div class="card-body">
-                        <h5 class="card-title">Task 5</h5>
-                        <p class="card-text">Make corrections</p>
-                        <p class="card-text">Diana Davis</p>
-                        <p class="card-text">3/5/22</p>
-                        <span class="badge badge-info">In progress</span>
-                        <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                    <div class="card mr-2" style="width: 19%; background-color: lightpink;">                
+                        <div class="card-body">
+                            <h5 class="card-title">Task 4</h5>
+                            <p class="card-text">Testing</p>
+                            <p class="card-text">FirstName LastName</p>
+                            <p class="card-text">Due 3/4/22</p>
+                            <span class="badge badge-success">Done</span>
+                            <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 19%; background-color: lightpink;">                
+                        <div class="card-body">
+                            <h5 class="card-title">Task 5</h5>
+                            <p class="card-text">Make corrections</p>
+                            <p class="card-text">FirstName LastName</p>
+                            <p class="card-text">Due 3/5/22</p>
+                            <span class="badge badge-info">In progress</span>
+                            <a href="#" class="btn btn-primary btn-sm">Delete</a>
+                        </div>
                     </div>
                 </div>
             </div>
