@@ -13,6 +13,7 @@
 
 </head>
 <body>
+
     <div class="bg-cover" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(images/backgroundimage.jpg);">
         <div class="container">
             <!-- navbar with logo image, links-->
@@ -92,49 +93,40 @@
                         </a> 
                     </div>
                 </div>
-
+                
                 <div class="col-6" style="height:366px">
-                    
-                    <div class="row d-flex align-items-center justify-content-center">
-                        <div class="card mt-4" style="background-color:lightgoldenrodyellow; height: 0; width: 75%; padding-bottom:75%">
-                            <div class="card-body">
-                                <h4 class="card-title">Add a new task</h4>
-
-                                <div class="form-group">
-                                    <!--<label for="taskName">Task name:</label> -->
-                                    <input type="text" class="form-control" id="taskName" placeholder="Task name:">
-                                    <br>
-                                    <!-- <label for="taskDescription">Description:</label> -->
-                                    <input type="text" class="form-control" id="taskDescription" placeholder="Description:">
-                                    <br>
-                                    <!-- <label for="taskAssignedTo">Assigned to:</label> -->
-                                    <input type="text" class="form-control" id="taskAssignedTo" placeholder="Assigned to:">
-                                    <br>
-                                    <!-- <label for="taskDueDate">Due date:</label> -->
-                                    <input type="text" class="form-control" id="taskDueDate" placeholder="Due date:">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="taskStatus">Status:</label>
-                                    <select class="form-control" id="taskStatus">
-                                        <option>To do</option>
-                                        <option>In progress</option>
-                                        <option>Review</option>
-                                        <option>Done</option>
-                                </select>
-                                </div>
+  
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="card mt-4" style="background-color:lightgoldenrodyellow; height: 0; width: 75%; padding-bottom:75%">
+                                <div class="card-body">
+                                    <h4 class="card-title">Add a new task</h4>
+                                        <div class="form-group">
+                                        <!--<label for="taskName">Task name:</label> -->
+                                        <input type="text" class="form-control" id="taskName" placeholder="Task name:">
+                                        <br>
+                                        <!-- <label for="taskDescription">Description:</label> -->
+                                        <input type="text" class="form-control" id="taskDescription" placeholder="Description:">
+                                        <br>
+                                        <!-- <label for="taskAssignedTo">Assigned to:</label> -->
+                                        <input type="text" class="form-control" id="taskAssignedTo" placeholder="Assigned to:">
+                                        <br>
+                                        <!-- <label for="taskDueDate">Due date:</label> -->
+                                        <input type="text" class="form-control" id="taskDueDate" placeholder="Due date:">
+                                        <label for="taskStatus">Status:</label>
+                                            <select class="form-control" id="taskStatus">
+                                                <option>To do</option>
+                                                <option>In progress</option>
+                                                <option>Review</option>
+                                                <option>Done</option>
+                                            </select>
+                                        <div class="text-right">
+                                            <button type="submit" class="btn btn-primary btn-sm text-right mt-2 mb-2">Submit</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                          </div> 
+                        </div> 
                     </div>
-                    
-
-<!--
-
--->
-
-
-                </div>
                 </div>
             </div>
         </div>
