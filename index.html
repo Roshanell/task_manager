@@ -9,13 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"  type="text/css" ref="styles.css">
     <!-- tiny image of sticky note with To Do written on it; can swap out for something better-->
- 
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
 </head>
 <body>
-
-    
-            
-                <div class="col-6" style="height:366px">
 
     <div class="bg-cover" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(images/backgroundimage.jpg);">
         <div class="container">
@@ -30,6 +27,9 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Add a new task</a>
+                        </li>
                         <!-- takes user to a page with options to reassign, change status, delete, other ideas?-->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Manage a task</a>
@@ -41,12 +41,25 @@
                         <!-- takes user to a page with dashboard organized by date? team member? other ideas?-->
                         <li class="nav-item">
                             <a class="nav-link" href="#">View my team's tasks</a>
-                        </li>                        
+                        </li>
+                        <!-- is there a way to populate this as users create new tasks and assign to a person?-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Team members
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Person 1</a>
+                                <a class="dropdown-item" href="#">Person 2</a>
+                                <a class="dropdown-item" href="#">Person 3</a>
+                                <a class="dropdown-item" href="#">Person 3</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
             <div class="container">
                 <div class="row">
+
                     <!-- left side column contains two rows-->
                     <div class="col-md-6" >
                         <div class="row ml-3 mr-3">
@@ -59,6 +72,7 @@
                                     <p>Due 3/3/22 Blah blah blah</p>
                                 </div>
                             </a> 
+
 
                             <a href="#" class="card" style="background-color:lightgreen; height:0; width: 48%; padding-bottom:48%; margin-left:auto">
                                 <div class="card-body">
@@ -98,13 +112,55 @@
                                 </div>
                             </a> 
                         </div>
+
+                <!-- left side column contains two rows-->
+                <div class="col-6" >
+                    <div class="row ml-3 mr-3">
+                        <a href="#" class="card" style="background-color:lightpink; height:0; width:48%; padding-bottom:48%">
+                            <div class="card-body">
+                                <h4 class="card-title">My tasks</h4>
+                                <!-- fake info hard-coded just to show example-->
+                                <p>Due 3/1/22 Blah blah blah</p>
+                                <p>Due 3/2/22 Blah blah blah</p>
+                                <p>Due 3/3/22 Blah blah blah</p>
+
+
+                            </div>
+                        </a> 
+
+                        <a href="#" class="card" style="background-color:lightgreen; height:0; width: 48%; padding-bottom:48%; margin-left:auto">
+                            <div class="card-body">
+                                <h4 class="card-title">Manage a task</h4>
+                            </div>
+                        </a> 
                     </div>
+
+                    <div class="row mt-3 ml-3 mr-3" >
+                        <a href="#" class="card" style="background-color:tan; height: 0; width: 100%; padding-bottom: 50%;">
+                            <div class="card-body">
+                                <h4 class="card-title">My team's tasks</h4>
+                                <!-- fake info hard-coded just to show example-->
+                                    <img src="images/letterw.png" width="100px">
+                                    <img src="images/roshanell.png" width="100px">
+                                    <img src="images/madona.png" width="100px">
+                                    <img src="images/letterd.png" width="100px">
+                            </div>
+                        </a> 
+
+                    </div>
+
 
                     <div class="col-md-6" style="height:400px;">
 
                     <div class="col-6" style="height:400px">
 
                     
+
+
+                </div>
+                
+                <div class="col-6" style="height:366px">
+  
 
                         <div class="row d-flex align-items-center justify-content-center">
                             <div class="card mt-4" style="background-color:lightgoldenrodyellow; height: 0; width: 75%; padding-bottom:75%">
